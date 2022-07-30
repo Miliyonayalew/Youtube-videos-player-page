@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 2px;
+}
+
+.container {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 3rem;
+    position: fixed;
+    border-bottom: 1px solid #dedede;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    align-items: center;
+    background-color: white;
+    z-index: 100;
+    flex: 1;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    width: 3rem;
+    margin: 0 0.5rem ;
+    cursor: pointer;
+}
+
+.youtube-logo{
+    height: 6rem;
+    cursor: pointer;
+}
+
+.middle-header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-bar{
+    flex: 1;
+    width: 25rem;
+    height: 2.2rem;
+    padding-left: 12px;
+    font-size: medium;
+    border: solid 1px #cccccc;
+    border-radius: 0.2rem;
+    box-shadow: inset 0px 1px 2px #eeeeee;
+  }
+
+
+
+.search-bar::placeholder{
+    font-size: medium;
+  }
+.search-bar:focus{
+    outline: 1px solid #1f5cc6;
+    outline-offset: -1px;
+    z-index: 1;
+  }
+
+
+  .search-button{
+    height: 2.3rem;
+    width: 64px;
+    border: solid 1px #cccccc;
+    border-radius: 0.1rem;
+    background-color:#f7f7f7;
+    margin-right: 10px;
+    margin-left: -3px;
+    box-shadow: inset 0px 1px 2px #eeeeee;
+    cursor: pointer;
+  }
+  .search-button:hover{
+    background-color: #efefef;
+  }
+
+  .search-icon {
+    width: 1.4rem;    
+  }
+
+  .mic-icon{
+    width: 2.5rem;
+    cursor: pointer;
+  }
+
+
+.right-header {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    margin-right: 1.5rem;
+    justify-content: space-between;
+}
+
+.upload-icon {
+    width: 2rem;
+    cursor: pointer;
+}
+
+.notification-icon {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.notifications-count{
+    position: absolute;
+    top: -2px;
+    right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc0000;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 20rem;
+    border: 2px solid white;
+  }
+
+.profile-icon{
+    
+    border-radius: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    
+}
+
