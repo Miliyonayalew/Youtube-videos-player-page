@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube video page</title>
     <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="Icons/youtube.png"
-    
-  />
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="Icons/youtube.png"
+    />
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1bc3a7e061.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -40,12 +42,183 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="videos-section">
+        <section class="youtube-video">
+            <iframe width="640" height="365" 
+                src="https://www.youtube.com/embed/deLf6eynC40" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="video-tags">
+                
+                <span>
+                    <a href="https://www.youtube.com/hashtag/frontend"
+                    >#frontend</a>
+                </span>
+                <span>
+                    <a href="https://www.youtube.com/hashtag/backend"
+                    >#backend</a>
+                </span>
+                <span>
+                    <a href="https://www.youtube.com/hashtag/softwareengineer"
+                    >#softwareengineer</a>
+                </span>
+                <span>
+                    <a href="https://www.youtube.com/hashtag/amazon"
+                    >#amazon</a>
+                </span>
+                <span>
+                    <a href="https://www.youtube.com/hashtag/seattle"
+                    >#seattle</a>
+                </span>
+            </div>
+            <div class="video-desc">
+                <h6 class="video-title">
+                    A Day In The Life Of An Amazon Software Engineer <br> (Seattle Edition)
+                </h6>
+                <p class="description">
+                    <span>2,032,762 views  Mar 1, 2022 </span>
+                    A day of my life (post pandemic, kinda, most people are still WTH) 
+                    <br> working from Amazon Seattle HQ. You'll get a campus and Spheres tour, 
+                    plus you'll get to meet my <br>  cute golden retriever Nala :) 
+                    Thank you so much for your support!
+                </p>
+            </div>
+            <div class="video-reaction">
+                <img src="Icons/like-svgrepo-com.svg" alt="like" title="Like">
+                <span title="Like">40K</span>
+                <img src="Icons/dislike-outlined-thumb-svgrepo-com.svg" alt="dislike" title="Dislike">
+                <span title="Dislike"> Dislike</span>
+                <img src="Icons/forward-svgrepo-com.svg" alt="share" title="Share">
+                <span title="Share">Share</span>
+                <img src="Icons/cut-svgrepo-com.svg" alt="Clip" title="Clip">
+                <span title="Clip">Clip</span>
+                <img src="Icons/bookmark-save-svgrepo-com.svg" alt="Save" title="Save">
+                <span title="Save">Save</span>
+                <img src="Icons/three-dots-ellipsis-svgrepo-com.svg" alt="more" title="More">
+            </div>
+            <div class="subscribe-section" >
+                <div class="channel-section">
+                    <div class="channel-profile">
+                        <img class="channel-picture" src="Images/albert.jpg" alt="channel-image">
+                        <div class="channel-info">
+                                <h6 title="Albert Yang" class="channel-author" >Albert Yang</h6>
+                                <p class="channel-subscribers">31K subscribers</p>
+                        </div>
+                    
+                    <button  class="subscribe-button">Subscribe</button>
+                </div>
+                <div class="comment-info">
+                    <div class="comment-desc">
+                        <h6 class="channel-author">Comments</h6>
+                        <p class="channel-subscribers">2.1K</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="top-comment">
+                        <img src="Images/profile.jpg" alt="user">
+                        <p>They should show this to any <br> new employee, 
+                            not just for ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-description">
+                <p>2,158 Comments</p>
+                <img title="Sort Comments" class="sort-image" src="Icons/sort-svgrepo-com.svg" alt="sort-comment">
+                <span title="Sort Comments"  >SORT BY</span>
+            </div>
+            <div class="user-comment">
+                <img class="person-pic" src="Images/profile.jpg" alt="comment-person">
+                <input class="comment" type="text" placeholder="Add a comment...">
+            </div>
+            <div class="subscribe-comment-container">
+            <div class="comments-view">
+                <div class="avatar">
+                    <img 
+                        class="comment-avatar"
+                        src="Images/M.jpg" 
+                        alt="commented-user"
+                    />
+                </div>
+                <div class="comment-desc">
+                    <h6 title="Melchior _1" class="comment-author">
+                        Melchior _1  <span class="posted-month">4 months ago</span> 
+                    </h6>
+                    
+                    <p class="comment-content">
+                        They should show this to any new employee, not just for Amazon but 
+                        any technology company, about what it means to have "work life balance".  Great video!
+                    </p>
+                    <div class="reply-section">
+                        <img class="like-icon" src="Icons/like-svgrepo-com.svg" alt="">
+                        <span>942</span>
+                        <img class="dislike-icon" src="Icons/dislike-outlined-thumb-svgrepo-com.svg" alt="">
+                        <span class="reply-btn">Reply</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="comments-view">
+                <div class="avatar">
+                    <img 
+                        class="comment-avatar"
+                        src="Images/K.jpg" 
+                        alt="commented-user"
+                    />
+                </div>
+                <div class="comment-desc">
+                    <h6 title="KeyleTechne" class="comment-author">
+                        KeyleTechne  <span class="posted-month">4 months ago</span> 
+                    </h6>
+                    
+                    <p class="comment-content">
+                        Seeing this as someone who's basically coding from 7am til 4pm 
+                        honestly just makes me wonder when the work actually gets 
+                        done and how much gets done....
+                    </p>
+                  
+                    <p class="read-more">Read More</p>
+                    <div class="reply-section">
+                        <img class="like-icon" src="Icons/like-svgrepo-com.svg" alt="">
+                        <span>437</span>
+                        <img class="dislike-icon" src="Icons/dislike-outlined-thumb-svgrepo-com.svg" alt="">
+                        <span class="reply-btn">Reply</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="comments-view">
+                <div class="avatar">
+                    <img 
+                        class="comment-avatar"
+                        src="Images/C.jpg" 
+                        alt="commented-user"
+                    />
+                </div>
+                <div class="comment-desc">
+                    <h6 title="Christian Schalfer" class="comment-author">
+                        Christian Schalfer  <span class="posted-month">4 months ago</span> 
+                    </h6>
+                    
+                    <p class="comment-content">
+                        software engineer/ epic outdoor adventure & urban photographer 🤓
+                    </p>
+                    <div class="reply-section">
+                        <img class="like-icon" src="Icons/like-svgrepo-com.svg" alt="">
+                        <span>830</span>
+                        <img class="dislike-icon" src="Icons/dislike-outlined-thumb-svgrepo-com.svg" alt="">
+                        <span class="reply-btn">Reply</span>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+        </section>
+    </section>
+    <section class="footer-section">
 
     </section>
-    <section>
-
-    </section>
-    
 </body>
 </html>
