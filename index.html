@@ -44,7 +44,7 @@
     </header>
     <section class="videos-section">
         <section class="youtube-video">
-            <iframe width="640" height="365" 
+            <iframe width="720" height="400" 
                 src="https://www.youtube.com/embed/deLf6eynC40" 
                 title="YouTube video player" 
                 frameborder="0" 
@@ -76,13 +76,13 @@
             </div>
             <div class="video-desc">
                 <h6 class="video-title">
-                    A Day In The Life Of An Amazon Software Engineer <br> (Seattle Edition)
+                    A Day In The Life Of An Amazon Software Engineer (Seattle Edition)
                 </h6>
                 <p class="description">
                     <span>2,032,762 views  Mar 1, 2022 </span>
                     A day of my life (post pandemic, kinda, most people are still WTH) 
-                    <br> working from Amazon Seattle HQ. You'll get a campus and Spheres tour, 
-                    plus you'll get to meet my <br>  cute golden retriever Nala :) 
+                  working from Amazon Seattle HQ. You'll get a campus and Spheres tour, 
+                    plus you'll get to meet my cute golden retriever Nala :) 
                     Thank you so much for your support!
                 </p>
             </div>
@@ -107,23 +107,23 @@
                                 <h6 title="Albert Yang" class="channel-author" >Albert Yang</h6>
                                 <p class="channel-subscribers">31K subscribers</p>
                         </div>
-                    
-                    <button  class="subscribe-button">Subscribe</button>
-                </div>
-                <div class="comment-info">
-                    <div class="comment-desc">
-                        <h6 class="channel-author">Comments</h6>
-                        <p class="channel-subscribers">2.1K</p>
+                        <button  class="subscribe-button">Subscribe</button>
                     </div>
-                    <div class="line"></div>
-                    <div class="top-comment">
-                        <img src="Images/profile.jpg" alt="user">
-                        <p>They should show this to any <br> new employee, 
-                            not just for ...
-                        </p>
+                    <div class="comment-info">
+                        <div class="comment-desc">
+                            <h6 class="channel-author">Comments</h6>
+                            <p class="channel-subscribers">2.1K</p>
+                        </div>
+                        <span class="line"></span>
+                        <div class="top-comment">
+                            <img src="Images/profile.jpg" alt="user">
+                            <p>They should show this to any <br> new employee, 
+                                not just for ...
+                            </p>
+                            
+                        </div>
                     </div>
                 </div>
-            </div>
             <div class="comment-description">
                 <p>2,158 Comments</p>
                 <img title="Sort Comments" class="sort-image" src="Icons/sort-svgrepo-com.svg" alt="sort-comment">
@@ -142,15 +142,20 @@
                         alt="commented-user"
                     />
                 </div>
-                <div class="comment-desc">
+                <div class="commented-description">
                     <h6 title="Melchior _1" class="comment-author">
                         Melchior _1  <span class="posted-month">4 months ago</span> 
                     </h6>
-                    
                     <p class="comment-content">
                         They should show this to any new employee, not just for Amazon but 
                         any technology company, about what it means to have "work life balance".  Great video!
                     </p>
+                    <button class="report-button">
+                        <img 
+                         src="Icons/three-dots-svgrepo-com.svg" 
+                         alt="report-menu-icon"
+                        >
+                    </button>
                     <div class="reply-section">
                         <img class="like-icon" src="Icons/like-svgrepo-com.svg" alt="">
                         <span>942</span>
@@ -168,17 +173,23 @@
                         alt="commented-user"
                     />
                 </div>
-                <div class="comment-desc">
+                <div class="commented-description">
                     <h6 title="KeyleTechne" class="comment-author">
                         KeyleTechne  <span class="posted-month">4 months ago</span> 
                     </h6>
-                    
                     <p class="comment-content">
                         Seeing this as someone who's basically coding from 7am til 4pm 
                         honestly just makes me wonder when the work actually gets 
-                        done and how much gets done....
+                        done and how much gets done ., en yet I'm envious of the amount 
+                        of time you had in this day to just mess around and exist. 
+                        I work from home and sometimes I honestly feel like....
                     </p>
-                  
+                    <button class="report-button">
+                        <img 
+                         src="Icons/three-dots-svgrepo-com.svg" 
+                         alt="report-menu-icon"
+                        >
+                    </button>
                     <p class="read-more">Read More</p>
                     <div class="reply-section">
                         <img class="like-icon" src="Icons/like-svgrepo-com.svg" alt="">
@@ -197,14 +208,19 @@
                         alt="commented-user"
                     />
                 </div>
-                <div class="comment-desc">
+                <div class="commented-description">
                     <h6 title="Christian Schalfer" class="comment-author">
                         Christian Schalfer  <span class="posted-month">4 months ago</span> 
                     </h6>
-                    
                     <p class="comment-content">
                         software engineer/ epic outdoor adventure & urban photographer 🤓
                     </p>
+                    <button class="report-button">
+                        <img 
+                         src="Icons/three-dots-svgrepo-com.svg" 
+                         alt="report-menu-icon"
+                        >
+                    </button>
                     <div class="reply-section">
                         <img class="like-icon" src="Icons/like-svgrepo-com.svg" alt="">
                         <span>830</span>
@@ -216,9 +232,284 @@
             </div>
         </div>
         </section>
+        <section class="previews-section">
+            <div class="related-topics">
+                <button class="topic-btn topic-active">All</button>
+                <button class="topic-btn ">Related</button>
+                <button class="topic-btn ">Recently uploaded</button>
+                <button class="topic-btn ">Watched</button>
+            </div>
+            <div class="preview-container">
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=bpYI7gSFHN8">
+                            <img class="thumbnail" src="thumbnail/techtalk.jpg" alt="video-thumbnail">
+                            <div class="video-time">33:02</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=bpYI7gSFHN8">
+                            <p class="video-preview-title">
+                                TechTalk With Solomon S22 E8 [Part 2] - አስገራሚው አጽናፈ ዓለም...
+                            </p>
+                            <p class="video-author">TechTalkWithSolomon</p>
+                            <p class="video-stats">23K views &middot; 3 days ago</p>
+                            <p class="recent-video">New</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=fehAgOqTR44">
+                            <img class="thumbnail" src="thumbnail/hired.jpg" alt="video-thumbnail">
+                            <div class="video-time">9:19</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=fehAgOqTR44">
+                            <p class="video-preview-title">
+                                I'm Bad At Coding ... (My Software Engineering Journey)
+                            </p>
+                            <p class="video-author">Json Goodison</p>
+                            <p class="video-stats">605K views &middot; 1 month ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=fehAgOqTR44">
+                            <img class="thumbnail" src="thumbnail/css.png" alt="video-thumbnail">
+                            <div class="video-time">6:18:38</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=fehAgOqTR44">
+                            <p class="video-preview-title">
+                                CSS Tutorial - Zero to Hero (Complete Course)
+                            </p>
+                            <p class="video-author">freeCodeCamp.org</p>
+                            <p class="video-stats">2.6M views &middot; 2 month ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=-_X6PhkjpzU&t=15s">
+                            <img class="thumbnail" src="thumbnail/frontend.jpg" alt="video-thumbnail">
+                            <div class="video-time">9:02</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=-_X6PhkjpzU&t=15s">
+                            <p class="video-preview-title">
+                                5 Front-end Development Skills to Land Your First Job
+                            </p>
+                            <p class="video-author">Programming  with Mosh</p>
+                            <p class="video-stats">1.1M views &middot; 1 year ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=fehAgOqTR44">
+                            <img class="thumbnail" src="thumbnail/fr vs bd.jpg" alt="video-thumbnail">
+                            <div class="video-time">8:32</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=fehAgOqTR44">
+                            <p class="video-preview-title">
+                                Frontend Vs. Backend Development – What's The...
+                            </p>
+                            <p class="video-author">CareerFoundry</p>
+                            <p class="video-stats">88K views &middot; 3 years ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=XBu54nfzxAQ">
+                            <img class="thumbnail" src="thumbnail/backend.png" alt="video-thumbnail">
+                            <div class="video-time">12:58</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=XBu54nfzxAQ">
+                            <p class="video-preview-title">
+                                Backend web development - a complete overview (2021)
+                            </p>
+                            <p class="video-author">SuperSimpleDev</p>
+                            <p class="video-stats">382K views &middot; 9 months ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=VKWJ3PFFA7A">
+                            <img class="thumbnail" src="thumbnail/do.jpg" alt="video-thumbnail">
+                            <div class="video-time">21:44</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=VKWJ3PFFA7A">
+                            <p class="video-preview-title">
+                                RICH VS POOR MINDSET | An Eye Opening Interview with Wallstreet Trapper...
+                            </p>
+                            <p class="video-author">Motiversity</p>
+                            <p class="video-stats">1.1M views &middot; 5 Month ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=27JtRAI3QO8">
+                            <img class="thumbnail" src="thumbnail/portifolio.jpg" alt="video-thumbnail">
+                            <div class="video-time">2:35:02</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=27JtRAI3QO8">
+                            <p class="video-preview-title">
+                                Responsive Personal Portfolio Website Using HTML CSS And JavaScript | Dark/Light Mode
+                            </p>
+                            <p class="video-author">Bedimcode</p>
+                            <p class="video-stats">1M views &middot; 1 year ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=EqzUcMzfV1w">
+                            <img class="thumbnail" src="thumbnail/web.jpg" alt="video-thumbnail">
+                            <div class="video-time">1:30:52</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=EqzUcMzfV1w">
+                            <p class="video-preview-title">
+                                Web Development In 2022 - A Practical Guide
+                            </p>
+                            <p class="video-author">Traversy Media</p>
+                            <p class="video-stats">697K views &middot; 6 month ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=EqzUcMzfV1w">
+                            <img class="thumbnail" src="thumbnail/tailwind.png" alt="video-thumbnail">
+                            <div class="video-time">1:35:39</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=EqzUcMzfV1w">
+                            <p class="video-preview-title">
+                                Tailwind Crash Course | Project From Scratch
+                            </p>
+                            <p class="video-author">Traversy Media</p>
+                            <p class="video-stats">156K views &middot; 3 month ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-column">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=KCHck5LIhCc">
+                            <img class="thumbnail" src="thumbnail/productivity.jpg" alt="video-thumbnail">
+                            <div class="video-time">6:48</div>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-preview-link" href="https://www.youtube.com/watch?v=KCHck5LIhCc">
+                            <p class="video-preview-title">
+                                My Work From Home Productivity Setup
+                            </p>
+                            <p class="video-author">Aral Tasher/p>
+                            <p class="video-stats">1.9M views &middot; 2 years ago</p>
+                            <button class="preview-button">
+                                <img 
+                                 src="Icons/three-dots-svgrepo-com.svg" 
+                                 alt="preview-menu-icon"
+                                >
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
-    <section class="footer-section">
-
-    </section>
+    <footer class="footer-section">
+        <p>Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Miliyon Ayalew
+        </p>
+        <a target="_blank" href="https://github.com/Miliyonayalew">
+            <img title="Github" class="github-icon" src="Icons/github-svgrepo-com.svg" alt="github-icon">
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/miliyon-ayalew-210808131/">
+            <img title="Linkedin" class="linkedin-icon" src="Icons/linkedin-svgrepo-com.svg" alt="linkedin-icon">
+        </a>
+    </footer>
 </body>
 </html>
